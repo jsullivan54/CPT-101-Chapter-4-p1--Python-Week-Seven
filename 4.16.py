@@ -14,7 +14,7 @@ while another == "y" or another =="Y":
                             "wholesale cost:"))
 
     # Calculate the retail price.
-    retail = wholesale * MARK_UP
+    retail = wholesale * mark_up
 
     # Display the retail price.
     print(f'Retail price:${retail:,.2f}')
